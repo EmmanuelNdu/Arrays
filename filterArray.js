@@ -8,6 +8,29 @@ function isEven(value) {
 console.log(even);
 
 
+const people = [
+    {
+        name:"Florin",
+        age:26
+    },
+    {
+        name:"Ivan",
+        age:18
+    },
+    {
+        name:"Jai",
+        age:15
+    }
+];
+
+const adults = people.filter(person => person.age >= 18);
+console.log(adults);
 
 
+const numbers1 = [1,2,3,3,1,2,4,3,5,6];
 
+const nums = numbers1.filter((value, index, arr) => {
+    return arr.indexOf(value) === index;
+});
+
+console.log(nums);
