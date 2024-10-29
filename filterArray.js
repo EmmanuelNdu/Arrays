@@ -34,3 +34,36 @@ const nums = numbers1.filter((value, index, arr) => {
 });
 
 console.log(nums);
+
+const products = [
+    {
+        name:'Laptop',
+        price:1500,
+        count:5
+    },
+    {
+        name: 'desktop',
+        price: 1000,
+        count:2
+    },
+    {
+        name: 'phone',
+        price: 500,
+        count: 10
+    },
+    {
+        name: 'phone',
+        price: 5000,
+        count: 10
+    },
+    {
+        name: 'phone',
+        price: 2001,
+        count: 10
+    }
+];
+
+// filter the array product of only the item >= 1500 or =< 6000
+
+const highest = products.filter(bigamount => bigamount.price >= 1000 && bigamount.price <= 2000 );
+console.log(highest);
