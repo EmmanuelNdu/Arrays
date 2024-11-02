@@ -1,3 +1,7 @@
+//  The every() method in JavaScript is used to test 
+// whether all elements in an array pass a provided test 
+// implemented by a given function. It returns a boolean value:
+
 const numbers = [ 1, 2, 3, 4, 5];
 
 const res = numbers.every(isPositive);
