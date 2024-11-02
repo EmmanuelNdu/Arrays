@@ -1,3 +1,4 @@
+// This find() will find the index and return the element
 const persons = [
     {
         name:'Florin',
