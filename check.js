@@ -1,6 +1,6 @@
 // Looping through Objects
 
-const person = {  // person is an object which holds the key value pair 
+const object = {  // person is an object which holds the key value pair 
     name: "Joy", // name is key while "joy" is the value
     age: 12,
     isStudent: false
@@ -27,7 +27,11 @@ const person = {  // person is an object which holds the key value pair
 
 // object.values()
 
-const values = Object.values(person)
-values.forEach(value => {
-        console.log (value)
+const entries = Object.entries(object)
+entries.forEach(entry => {
+    const key = entry[0]
+
+    const value = entry[1]
+
+    console.log(key, value)
 })
