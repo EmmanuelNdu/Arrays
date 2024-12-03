@@ -1,9 +1,16 @@
-const person = {
-    name: "Joy",
+// Looping through Objects
+
+const person = {  // person is an object which holds the key value pair 
+    name: "Joy", // name is key while "joy" is the value
     age: 12,
     isStudent: false
 };
+//console.log(person.age)
+//For...in
+ for(const liam in person) {
+    const value = person[liam]
 
-return (
-    console.log(person.name)
-)
+    console.log(liam, value)
+ }
+
+ console.log("joy" in person)
