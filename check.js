@@ -17,10 +17,17 @@ const person = {  // person is an object which holds the key value pair
 
 // object.keys()
 
-const keys = Object.keys(person)
+// const keys = Object.keys(person)
 
-keys.forEach(key => {
-    const value = person[key]
+// keys.forEach(key => {
+//     const value = person[key]
 
-    console.log(key, value)
+//     console.log(key, value)
+// })
+
+// object.values()
+
+const values = Object.values(person)
+values.forEach(value => {
+        console.log (value)
 })
