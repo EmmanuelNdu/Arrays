@@ -13,4 +13,4 @@ const person = {  // person is an object which holds the key value pair
     console.log(liam, value)
  }
 
- console.log("joy" in person)
+ console.log("name" in person)
